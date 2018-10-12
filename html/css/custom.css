@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#chalupa{
+	background-color: #96C0AC;
+	align-items: center;
+	text-align: right;
+}
+
+#chalupapop{
+	text-align: right;
+
+}
+/*
+.menu-container
+  line-height: 1.4
+  text-align: center
+  padding: 44px
+  color: #333
+
+.highlight-container, .highlight 
+  position: relative
+.highlight-container
+  display: inline-block
+  &:before
+    content: ' '
+    display: block
+    height: 90%
+    width: 100%
+    margin-left: -12px
+    margin-right: 10px
+    position: absolute
+    background: #F3DC7D
+    bottom: -10px*/
+/*
+.highlighter{
+	background: #F3DC7D;
+}*/
+
+.highlight-menu{
+  position: relative;
+  top: -11px;
+  left: 10px;
+
+}
+
+.background-menu{
+  position: absolute;
+  padding-left: 10px;
+  background: #F3DC7D;
+  height: 15px;
+}
+
+////
+
+/*body {
+  padding: 10px;
+  
+  font-size: 25px;
+  font-family: Arial, Verdana, sans-serif;
+}*/
+
+.menuheading span {
+ /* left: 10px;*/
+  
+}
+.out{
+  position: relative;
+/*   bottom: -50px; */
+  background-color: #F3DC7D;
+/*   z-index: -1; */
+}
+
+.in{
+  position: relative;
+  left: 10px;
+  bottom: 15px;
+  z-index: 99;
+}
+
+/*Contact Info*/
+#contact-section{
+	background-image:url(../img/wall_graphics2.png);
+	height: 1000px;
+}
+
+#contactform{
+	background-color: white;
+}
+
+/*Social media*/
+#socialmedia{
+	background-image:url(../img/stripes.jpg);
+	height: 1000px;
+}
+

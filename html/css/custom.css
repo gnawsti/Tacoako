@@ -73,18 +73,22 @@
  /* left: 10px;*/
   
 }
-.out{
-  position: relative;
-/*   bottom: -50px; */
+.in:after{
+  content: "";
+  position: absolute;
+   bottom: -5px;
+   top: 65%;
+   left: -5px;
+   right: 10%; 
   background-color: #F3DC7D;
-/*   z-index: -1; */
+   z-index: -1; 
 }
 
 .in{
   position: relative;
-  left: 10px;
+  /*left: 10px;
   bottom: 15px;
-  z-index: 99;
+  z-index: 99;*/
 }
 
 /*Contact Info*/
@@ -163,4 +167,9 @@ a.btn_t, .btn_t{
 
 a.btn_t:hover, .btn_t:hover {
   background: #333;
+}
+
+.margin_40{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
